@@ -1,0 +1,2065 @@
+body {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.header{
+  width:100%;
+  background-color:white;
+}
+.navs{
+  position:fixed;
+  z-index: 111;
+  left:0;
+}
+.navbar-collapse{
+  flex-grow:0;
+}
+nav.navbar.navbar-expand-lg.navbar-dark {
+  padding: 0px 57px;
+}
+#header {
+  padding-top: 41px;
+}
+.gymat-wrapper {
+    margin-top: -28px;
+  padding-left: 36px;
+}
+.nav-item{
+font-family: 'Montserrat', sans serif;
+font-size:25px;
+line-height: 22px; 
+font-weight: 500;
+font-style: normal;
+padding-left: 14px;
+
+}
+.dropdown-menu a:hover{
+  color: red;
+}
+.top-slider{
+    padding-bottom:120px;
+}
+.slider{
+  position: relative;
+}
+.class-btn{
+  background-color:transparent;
+  color:#fff;
+  border:1px solid rgba(255,255,255,.3);
+  padding:10px 10px;
+}
+
+.slider{
+  overflow: hidden;
+}
+.navbar-dark .navbar-nav .nav-link {
+  /* color: rgba(255,255,255,.5); */
+  color: white;
+  font-size: 25px;
+}
+.plus-icans{
+  background-color:red;
+  padding:7px 13px;
+}
+.main-slider{
+  position: absolute;
+  top:192px;
+  left: 127px;
+  z-index: 1;
+}
+/* .slider-wapper img{
+  
+} */
+.slider-item {
+  margin-top:-29px ;
+  margin-left:30px ;
+  color:#ffffff;
+  margin-bottom:30px;
+}
+.slider-wapper h1{
+  color:#ffffffff;
+  margin-bottom:45px;
+}
+.btn{
+  position: absolute;
+  background-color:red;
+  color:#fff;
+  padding: 14px 53px;
+}
+ .btn:after{
+  position: absolute;
+  content:"";
+  border:1px solid #fff;
+  width: 100%;
+  height:100%;
+  top:-18px;
+  left:10px;
+  transition:all .4s;
+  z-index:-1;
+}
+.btn:hover:after{
+  top:0;
+  left:0;
+  border-color:red;
+} 
+.fit{
+  position: absolute;
+  top:88px;
+  color: #ffffff;
+  left:0px;
+}
+.slider-wapper h5{
+  color: #ffffff;
+   font-size: 16px;
+   margin-bottom: 93px;
+}
+.printer{
+  position:absolute;
+  top:165px;
+  left:0px;
+  font-size:16px;
+  color:#ffffff;
+}
+.slider img{
+  animation-name:zoom;
+  animation-iteration-count: infinite;
+  animation-duration:30s;
+  animation-timing-function:linear;
+  animation-direction: alternate;
+  /* transform: scale(1.5); */
+}
+@keyframes zoom{
+  0%{
+    transform:scale(1);
+  }
+  100%{
+    transform:scale(1.5);
+  }
+}
+.image-elementor{
+ height: 500px;
+  width:600px;
+  background-color:red;
+}
+.about{
+  padding:0px;
+}
+.about-img{
+  position: relative;
+  padding-bottom: 100px;
+}
+.about-img img{
+  margin-top:-580px;
+  margin-left: 66px;
+}
+.running-image{
+  position:absolute;
+  left:-174px;
+  top:552px;
+}
+.main-modern{
+  position: relative;
+  transition: all .3s ease-in-out;
+  transform: scale(1.02);
+}
+/* .gymat{
+  margin-top: -27px;
+  margin-left:45px; */
+
+.title-shape{
+  padding-left:185px;
+}
+.galley{
+  margin-top:-14px;
+  margin-left:62px;
+  margin-bottom:40px;
+}
+.main-modern{
+  position: relative;
+}
+.main-modern img {
+  width: 42px;
+  height: 42px;
+  left: 12px;
+  top: 8px;
+}
+.main-modern:after{
+  position: absolute;
+  content:"";
+  height: 36px;
+  width: 36px;
+  background-color: #fee5ea;
+  border-radius: 50%;
+  top: -13px;
+  left: -14px;
+  z-index:-1;
+  transition: all .3s ease-in-out; 
+}
+.main-modern:hover:after{
+ width:54px;
+ height:60px;
+ left: -5px;
+ right:20px;
+ top:-10px;
+} 
+
+.elementor-top{
+    background-color: #F9F9F9;
+    background-image: url("image/shape-17.png");
+    background-position: center center;
+    background-size: cover;
+    padding-top:145px;
+    padding-bottom:250px;
+    position: relative;
+}
+.fa-arrow-left:before {
+  content: "\f060";
+  color: #fff;
+}
+.fa-arrow-right:before {
+  content: "\f061";
+  color: white;
+}
+.main-tor{
+  position: relative;
+}
+.elementor-top:before{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-image: url(image/shape-82.png);
+}
+.elementor-text{
+  padding-top: 260px;
+  position: relative;
+  z-index: 1;
+  
+}
+.days-off img {
+  z-index: -1;
+  position: absolute;
+  top: 114px;
+  left: -72px;
+}
+.up-comming{
+  margin-top: -26px;
+  }
+.arrow-icans{
+   padding-top:23px;
+  }
+.left-arrow{
+  margin-right:20px;
+  font-size:25px;
+  border: 2px solid white;
+  background-color: #646464;
+  padding: 0px 25px;
+}
+.right-arrow{
+  font-size:25px;
+  border: 2px solid white;
+  background-color: red;
+  padding: 0px 25px;
+  color:white;
+}
+.elementor-image{
+  position: relative;
+  overflow:hidden;
+}
+.elementor-image img{
+  transform: scale(1);
+  transition: 0.5s;
+  position: relative;
+}
+.elementor-image img:hover{
+  transform: scale(1.05);
+}
+.text-building {
+  position: absolute;
+  background-color: #fff;
+  width: 472px;
+  height: 320px;
+  bottom: -90px;
+  left: 13px;
+  transform: rotate(16deg);
+  border-radius: 30px 0 0 0;
+}
+.text-building:before {
+  position: absolute;
+  content: "";
+  background-color: #fff;
+  opacity: 0.5;
+  width: 472px;
+  height: 320px;
+  bottom: 25px;
+  left: 25px;
+  border-radius: 30px 0 0 0;
+}
+.rotation{
+  transform:rotate(-16deg);
+  position: relative;
+  top: 62px;
+}
+.rotation h2{
+  font-size: 25px;
+}
+.about-fitness{
+  padding-bottom: 63px;
+}
+.text-building button{
+  position: absolute;
+  background-color:red;
+  color:#fff;
+  padding: 14px 34px;
+  margin-left:-150px;
+}
+.text-building btn:after{
+  position: absolute;
+  content:"";
+  border:1px solid #fff;
+  width: 100%;
+  height:100%;
+  top:-18px;
+  left:10px;
+  transition:all .4s;
+}
+.text-building btn:hover:after{
+  top:0;
+  left:0;
+  border-color:red;
+}
+.start-fitness {
+  height: 180px;
+  box-shadow: 0 10px 38px rgb(0 0 0 / 11%);
+  margin-top: -104px;
+}
+
+.fitness-img img {
+  clip-path: polygon(37% 0,100% 0,100% 100%,0 100%);
+   height:180px;
+
+}
+.imp-fitness h2 {
+  font-size: 19px;
+  padding-top: 56px;
+  padding-left: 47px;
+}
+.join-img{
+    width: 332px;
+    height: 590px;
+    display: inline-block;
+    background: #f8f8f8;
+    box-shadow: inset 0 6px 20px rgba(163,163,163,.2);
+    border-radius: 236px;
+    position: relative;
+    z-index:-1;
+    top: 0;
+}
+.jion-now img {
+  width: 42px;
+  height: 42px;
+  left: 12px;
+  top: 8px;
+}
+.jion-now:after{
+  position: absolute;
+  content:"";
+  height: 36px;
+  width: 36px;
+  background-color: #fee5ea;
+  border-radius: 50%;
+  top: -13px;
+  left: -14px;
+  z-index:-1;
+  transition: all .3s ease-in-out; 
+}
+.jion-now:hover:after{
+ width:64px;
+ height:70px;
+ left: 5px;
+ top:-10px;
+} 
+
+.weight img {
+  width: 42px;
+  height: 42px;
+  left: 12px;
+  top: 8px;
+}
+.weight:after{
+  position: absolute;
+  content:"";
+  height: 36px;
+  width: 36px;
+  background-color: #fee5ea;
+  border-radius: 50%;
+  top: -13px;
+  left: -14px;
+  z-index:-1;
+  transition: all .3s ease-in-out; 
+}
+.weight:hover:after{
+ width:65px;
+ height:65px;
+ left: 5px;
+ top:-10px;
+} 
+
+.join-img img{
+  z-index:1 ;
+  height: 100% ;
+  position: relative;
+}
+.join-img img::after{
+  position: absolute;
+  content: "";
+  background-image: url(image/shape-96.png);
+  top: 0;
+}
+.jion-text h5{
+  margin-top: -26px;
+  padding-left:21px;
+  color: #ffffff;
+}
+.fitness-img {
+  text-align: right;
+  position: relative;
+}
+.join{
+  background-color:#3f3f3f;
+  color: #fff!important;
+}
+.join:hover{
+  background-color:#ff0336;
+}
+.join:after {
+  position: absolute;
+  content: "";
+  border: 1px solid #d5d5d5;
+  width: 100%;
+  height: 100%;
+  top: -18px;
+  left: 10px;
+  transition: all .4s;
+
+}
+.join:hover:after{
+    top:0;
+    left: 0;
+    border-color:#ff0336; 
+    
+}
+
+.join {
+  position: absolute;
+  background-color:#3f3f3f;
+  color: #fff;
+  padding: 8px 8px;
+  margin-left:35px;
+}
+.fitness-img{
+  position: relative;
+  transition: all .4s ease-in-out;
+}
+.fitness-img:after{
+      position: absolute;
+      content: "";
+    height: 84px;
+    width: 5px;
+    background-color:red;
+    top: 18px;
+    left: 96px;
+    transform: rotate(215deg);
+}
+.fitness-img:before{
+position: absolute;
+content: "";
+height: 44px;
+width: 5px;
+background-color:white;
+top: 101px;
+left:52px;
+transform: rotate(215deg); 
+z-index: 1;    
+}
+.fitness-img:hover img{
+   filter: grayscale(1);
+}
+.fitness-img:hover:before{
+  background-color:red;
+}
+.fitness-img:hover:after{
+  background-color:#fff;
+}
+.info-text{
+  font-size:24px;
+  padding-top: 18px;
+  font-weight: 600;
+}
+.jion-wrapper{
+  padding-top: 70px;
+}
+.weight h1{
+  font-size:24px;
+  padding-top: 18px;
+  font-weight: 600;
+}
+.Trainer{
+  background-image: url(image/Group-47-1-1.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-bottom:90px;
+}
+.trainer-text{
+  padding-top: 100px;
+  position: relative;
+
+}
+.trainer-text h6{
+  margin-top: -26px;
+}
+.trainer-image{
+    background-color: #e9ecef;
+    min-height: 340px;
+    width:505px;
+    border-radius: 200px;
+    position: relative;
+    overflow: hidden;
+    padding: 0px 24px;
+    margin-left: 46px;
+    margin-bottom: 46px;
+  }
+  .trainer-text:after{
+    position: absolute;
+    content: "";
+    top: 116px;
+    background-image: url(image/vector-2-1.png);
+    width:26%;
+    height:100%;
+    background-repeat:no-repeat;
+    bottom: 0;
+    right: 0;
+
+  }
+  .trainer-text:before{
+    position: absolute;
+    content: "";
+    top:500px;
+    background-image: url(image/shape-86.png);
+    width:80%;
+    height:100%;
+    background-repeat:no-repeat;
+    bottom: 0;
+    right: 0;
+  }
+  .trainer-exp:after {
+    top: 200px;
+    content: "";
+    height: 4px;
+    width: 45px;
+    background-color:red;
+    position: absolute;
+    bottom: 0;
+    left: 57px;
+}
+girl-img img{
+  width:100%;
+}
+.trainer-exp {
+  padding-left: 34px;
+   padding-top: 127px;
+}
+.trainer-exp p i {
+  margin-right: 5px;
+}
+.girl-img img {
+  margin-top: 14px;
+}
+.trainer-exp h3:hover{
+  color:red;
+}
+.trainer-exp  p i:hover{
+  color:red;
+}
+.table-main {
+  padding-top: 90px;
+}
+.line::after{
+  position: absolute;
+  content: "";
+  width:90%;
+  height:100%;
+  color: red;
+  padding:5px 0px ;
+
+  background-color:red;
+}
+ .table-wrapper img{
+ width:100%;
+  height: 100%;
+  position: relative;
+  z-index:-1;
+  top: -207px;
+  left: 104px;
+  animation: jumping 2s infinite alternate linear;
+} 
+@keyframes jumping{
+  0%{
+    transform:translateY(0);
+  }
+  100%{
+    transform: translateY(-20px);
+  }
+}
+.table-text{
+  position: absolute;
+}
+.payment{
+  background-image: url(image/shape-94.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-bottom:90px;
+}
+.payment-monthly{
+  padding-top:319px;
+}
+.chat  {
+  margin-top: -29px;
+  padding-left: 44px;
+  font-weight: 700;
+}
+.yearly span {
+  position: relative;
+  padding-top: 22px;
+}
+.yearly span:before {
+  position: absolute;
+  content: "";
+  background-color: red;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  top: 26px;
+  left: 76px;
+  z-index: 111;
+}
+.yearly span:after {
+  position: absolute;
+  content: "";
+  top: 25px;
+  left: 75px;
+  background-color: #fff;
+  width: 56px;
+  height: 21px;
+  border-radius: 15px;
+}
+.yearly p {
+  padding-top: 22px;
+  margin-right: 142px;
+}
+.payment-img img{
+    padding-bottom: 20px;
+}
+.payment-img p{
+  font-size:25px;
+  font-weight: 600;
+  padding-left:36px;
+}
+.payment-img span{
+  font-weight: 100;
+  font-size: 20px;
+}
+.club ul {
+  list-style:none;
+}
+.club ul li i{
+  margin-right:23px;
+}
+.payment-img {
+  width: 100%;
+  padding-bottom: 100px;
+}
+.purchase button{
+  position: absolute;
+  background-color:red;
+  color:#fff;
+  padding: 14px 34px;
+  margin-right: 10px;
+}
+ .purchase button:after{
+  position: absolute;
+  content:"";
+  border:1px solid #fff;
+  width: 100%;
+  height:100%;
+  top:-18px;
+  left:10px;
+  transition:all .4s;
+}
+.purchase button:hover:after{
+  top:0;
+  left:0;
+  border-color:lightgrey;
+}
+.purchase {
+  margin-left: 36px;
+  padding-top: 22px;
+}
+.club {
+  padding-top: 18px;
+  line-height: 42px;
+  font-weight: 600;
+}
+.gym-store h6{
+  margin-top: -25px;
+  color:#ffffff;
+}
+.store{
+  padding-top: 95px;
+}
+.gym-store p{
+  padding:0 321px;
+}
+.gym-store {
+  padding-bottom: 42px;
+}
+.main-shopping{
+  padding-bottom: 90px;
+}
+.online-shopping{
+  border: 1px solid white;
+  text-align: center;
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 267px;
+  padding-top: 47px;
+  position: relative;
+}
+.online-click button{
+  background-color:red;
+  color:#fff;
+  padding: 10px 28px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 16px;
+  margin-bottom: 13px;
+}
+.online-shopping img{
+  transition:.5s all ease;
+}
+.cart-shopping:hover .online-shopping img{
+  transform: scale(1.1);
+  opacity:0.5;
+}
+.rating li{
+  display: inline;
+  list-style: none;
+  color: #fcb75c;
+}
+.rating ul {
+  margin-left: -38px;
+  letter-spacing: -3px;
+}
+.online-click button:hover{
+  background-color:black;
+}
+.online-shopping h6:hover{
+  color: #ff0336;
+}
+.reviews-wrapper h6{
+  color: white;
+   margin-top: -26px;
+  padding-left: 45px;
+  padding-bottom: 10px;
+}
+.reviews-main{
+ padding-top: 80px; 
+ padding-bottom: 40px;
+}
+.reviews-text{
+  padding-top:90px ;
+  padding-bottom:190px ;
+}
+.sportsman{
+  background-color: black;
+  padding: 30px;
+  
+}
+.sports-text img{
+  border-radius:0 50% 0 0;
+  margin-top: -84px;
+  margin-left: -45px;
+  width: 684px;
+  height: 400px;
+}
+.sports-img img{
+  padding-left: 162px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.sports-img p {
+  font-size: 17px;
+  font-style: italic;
+  color: #dedede;
+  margin-bottom: 25px;
+  padding: 0px 114px ;
+  position: relative;;
+}
+.testimonial-title {
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 5px;
+  padding-left: 146px;
+}
+.sport-main{
+    border: 9px solid #efefef;
+    padding: 25px;
+}
+.sports-img {
+  z-index: 111;
+}
+.testimonial-designation {
+  font-size: 16px;
+  color: #dedede;
+  padding-left: 146px;
+}
+.testimonial-shape img{
+  position: absolute;
+  top: 76px;
+  left: 494px;
+  z-index: -1;
+}
+.calculate-main{
+  padding-top:90px;
+  padding-bottom: 90px;
+}
+.calculate{
+  padding-top: 83px;
+  background-image: url(image/banner-8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 312px;
+}
+.calculate-text{
+  z-index: 1;
+}
+.calculate-text img{
+  position: absolute;
+  top:-18px;
+  left: -136px;
+  z-index: -1;
+}
+.units{
+  color: #404040;
+  padding-right: 326px;
+}
+.kg input{
+  height: 50px;
+  border: 1px solid #6a6a6a;
+  background-color: initial;
+  border-radius: 0;
+  color: #b4adad;
+  margin-right: 84px;
+}
+.sub input{
+     font-size: 14px;
+    color: #fff;
+    background-color: #323232;
+    font-weight: 600;
+    padding: 9px 48px;
+    transition: all .4s ease;
+    height: 54px;
+    align-items: center;
+    border: 1px solid #323232;
+    margin: -2px -6px;
+}
+.sub input:hover{
+  background-color: red;
+}
+.crossfit-image{
+  overflow: hidden;
+}
+.crossfit-image img {
+  width: 416px;
+  width: 356px;
+  height: 550px;
+  transform: scale(1.01);
+  transition: all .4s ease-out 0s;
+}
+.crossfit-image img:hover{
+  transform: scale(1.2);
+}
+.crossfit-text{
+  position: absolute;
+  top:371px;
+ left: 32px; 
+}
+.blog-cat a {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  border: 1px solid #7d7d7d;
+  border-radius: 40px;
+  padding: 7px 14px;
+  text-transform: capitalize;
+  transition: all .3s ease-in-out 0s;
+}
+.blog-cat a:hover{
+  background-color: red;
+  text-decoration: none;
+}
+h2.meet:hover{ 
+ color: red!important;
+}
+.p img span {
+  color: #8e8f8e;
+}
+.contact-main{
+  padding-top:90px ;
+  padding-bottom: 90px;
+}
+.contact{
+  background-image: url(image/cta-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact h1{
+  text-align: center;
+  color:white;
+  
+
+}
+.contact {
+  text-align: center;
+  color: white;
+  text-align: center;
+  padding-bottom:120px;
+  padding-top: 120px;
+}
+.contact-us{
+  padding: 13px 20px;
+  background-color:red;
+}
+.contact-us a{
+  text-decoration: none;
+}
+.tempus{
+  color: #9a9999;
+  font-size: 20px;
+}
+.square{
+  margin-left: -44px;
+}
+.square ul li{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 500px;
+    background-color: #efefef;
+    color: #646464;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+}
+.square ul li:hover{
+  background-color: red;
+  color: #ffff;
+}
+.footer-top:after {
+  position: absolute;
+  content: "";
+  background-image: url(image/shape-75.png);
+  top: 138px;
+  z-index: -1;
+  left: 958px;
+  width: 29%;
+  height: 100%;
+}
+.nav h3::after{
+position: absolute;
+content: "";
+width:40px;
+height: 4px;
+background-color:red;
+border: 1px solid red;
+left: 0;
+top: 48px;
+}
+.fitness-class{
+  padding-top:35px;
+  margin-left: -43px;
+}
+.fitness-class ul li{
+  color: #646464;
+  list-style: none;
+  font-size: 20px;
+  line-height: 37px;
+}
+.fitness-class ul li a{
+  color: black;
+  padding-left: 12px;
+  text-decoration: none;
+}
+.fitness-class ul li i{
+  color: red;
+}
+.fitness-class ul li a:hover{
+  color: red;
+}
+.copyright{
+  background-color: black;
+  text-align: center;
+  color: #9a9999;
+  padding: 34px 0px;
+}
+.scroll{
+  text-align: right;
+  position: fixed;
+  bottom: 0;
+  right: 26px;
+}
+.scroll a {
+  overflow: hidden;
+   height: 50px;
+  width: 50px;
+  line-height: 20px;
+  border-radius: 50%;
+   right: 20px;
+  padding: 9px 0;
+  text-align: center;
+  z-index:11;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+
+}
+.scroll a {
+  background-color: #ff0336;
+} 
+.shop-icon {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  overflow:hidden;
+  padding: 12px 0;
+}
+.shop-icon ul li{
+  display: inline;
+  position: relative;
+  top: 70px;
+  transition:0.5s;
+}
+.shop-icon ul li a{
+  text-decoration:none;
+  color:#fff;
+  background-color:#000;
+  padding: 11px 15px;
+  border-radius: 4px;
+  
+}
+.shop-icon ul li a:hover{
+  background-color:#ff0336;;
+}
+.cart-shopping:hover .shop-icon ul li{
+  top:0px;
+}
+.counter {
+  padding: 20px 0;
+  border-radius: 5px;
+  border:1px solid black;
+  animation:radiss 5s infinite linear;
+}
+@keyframes radiss{
+  0%{
+     border-radius:0px 0px 50px 0px;
+  }
+  45%{
+    border-radius:50px 0px 0px 0px;
+  }
+  100%{
+    border-radius:0px 0px 0px 0px;
+  }
+}
+.count-title {
+  font-size: 40px;
+  font-weight:bold;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.count-text {
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+
+
+@media (min-width:320px) and (max-width:576px){
+  #none{
+    display:none;
+  }
+  nav.navbar {
+    padding: 0px 0px;
+}
+.navbar-dark .navbar-toggler {
+  color: rgba(255,255,255,.5);
+  border-color: rgba(255,255,255,.1);
+  margin-left: 27px;
+}
+.container{
+  width:100%;
+}
+.header{
+  background-color: black;
+}
+.navs{
+  position:relative;
+}
+.navbar-brand {
+  padding-top:0px;
+  padding-bottom:0px;
+}
+.slider img{
+  height: 340px;
+  animation: none;
+}
+.main-slider {
+   top: 72px;
+   left: 50px; 
+}
+.slider-item{
+  margin-bottom:0px;
+}
+.slider-wapper h1{
+  font-size: 28px;
+  margin-bottom: 0px;
+  padding: 21px 0px;
+}
+.slider-wapper h5{
+  margin-bottom:48px ;
+}
+.fit{
+  position:relative;
+  top: 0px;
+  left: 0px;
+}
+.btn {
+  position: absolute;
+  background-color: red;
+  color: #fff;
+  padding: 6px 8px;
+  margin-left: 66px;
+}
+.printer{
+  position: relative;
+  top: 0px;
+}
+.siv{
+  display: none;
+}
+.about-img svg {
+  display: none;
+}
+.about-text1 img{
+  display: none;
+}
+.about{
+  padding: 0px 0px;
+}
+.about-img svg{
+  display: none;
+}
+.arrow-icans {
+padding-left: 66px;
+}
+.elementor-image {
+ margin-bottom: 34px;
+}
+.running-image {
+  position: absolute;
+  left: -65px;
+  top: 387px;
+}
+.title-shape {
+   padding-left: 0px; 
+}
+.about-img img {
+  margin-top: -580px;
+  margin-left: 6px;
+}
+.about_text {
+  text-align: center;
+  padding-top: 216px;
+}
+
+.elementor-text{
+  padding-top: 0px;
+}
+
+.elementor-top{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.elementor {
+  padding-bottom: 87px;
+}
+.rotation {
+  transform: rotate(0deg);
+  position: relative;
+  top: -168px;
+  left: -82px;
+   color: white;
+}
+.text-building{
+  position: static;
+  transform: rotate(0deg);
+  height: 327px;
+  display: none;
+}
+.start-fitness{
+  margin-top: 19px;
+ }
+.imp-fitness h2 {
+  font-size: 22px;
+  padding-left: 0px;
+  padding-top: 14px;
+}
+.start-fitness a{
+  margin-left: -10px;
+  top: 94px;
+}
+.join-img{
+  width: 100%;
+  height: 100%;
+}
+.jion-text h1 {
+  font-size: 17px;
+}
+.jion-text span {
+  font-size: 14px;
+}
+.jion-wrapper {
+  padding-top: 36px;
+  text-align: center;
+}
+.weight:after {
+  position:static;
+}
+.jion-now:after{
+  position: static;
+}
+.count-text{
+  font-size: 17px;
+}
+.trainer-exp {
+  padding-left: 34px;
+   padding-top: 69px;
+}
+.Trainer{
+  padding-bottom: 0px;
+
+}
+h1.cool.text-white.pb-5 {
+  font-size: 17px;
+}
+.trainer-exp:after {
+  position: static;
+}
+.trainer-image {
+  min-height:287px;
+  width: 284px;
+  padding: 0px 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+.payment-monthly {
+  text-align: center;
+  padding-top: 19px;
+}
+.yearly p {
+  padding-top: 22px;
+  margin-right: 111px;
+}
+.purchase{
+  margin-left: 0px;
+  padding-top: 0px;
+}
+.purchase button{
+  padding: 4px 4px;
+  margin-right: 0px;
+}
+.club ul li i {
+  margin-right: 0px;
+}
+.reviews-text {
+   padding-top: 0px;
+  padding-bottom: 0px;
+}
+.reviews-wrapper h1 {
+  font-size: 22px;
+}
+.reviews-main {
+  padding-top: 11px;
+ padding-bottom:0px;
+  text-align: center;
+}
+.sport-main {
+ border:none;
+  padding: 0px;
+}
+.sportsman {
+  background-color: black;
+  padding:0px;
+}
+.testimonial-shape img {
+  top: 17px;
+  left: -112px;
+  display:none;
+}
+.sports-img img {
+   padding-left: 0px;
+   padding-top: 0px; 
+   padding-bottom: 0px;
+   display: none;
+}
+.sports-img p{
+  padding: 0px;
+  margin-bottom: 0px;
+}
+.testimonial-title {
+ padding-left: 0px;
+ font-size: 19px;
+}
+.testimonial-designation {
+ padding-left: 0px; 
+}
+.sports-text img {
+  border-radius: 0 50% 0 0;
+  margin-top: 0px;
+  margin-left: -15px;
+  width: 1058px;
+  height: 246px;
+}
+.gym-store p {
+  padding: 0px;
+}
+.gym-store {
+  padding-bottom:0px;
+}
+.store {
+  padding-top: 0px;
+}
+.counter {
+  margin-bottom: 10px;
+}
+.units {
+  color: #404040;
+  padding-right:0px;
+  margin-top: 32px;
+}
+.kg input{
+  width: 138px;
+  margin-right: 0px;
+}
+h1.nmi.text-white.pt-5 {
+  font-size: 28px;
+  margin-top: -64px;
+}
+h1.our-online {
+  font-size: 28px;
+}
+.store {
+  padding-top: 241px;
+}
+.table-main{
+  display: none;
+}
+.footer-top:after{
+  left: 0px;
+}
+.fitness-class{
+  margin-left: -184px;
+  padding-top: 48px;
+}
+.fitness-class ul li a {
+  color: black;
+  padding-left: 134px;
+  text-decoration: none;
+}
+}
+@media(min-width:576px) and (max-width:768px){
+  #none{
+    display:none;
+  }
+  nav.navbar {
+    padding: 0px 0px;
+}
+.navbar-dark .navbar-toggler {
+  color: rgba(255,255,255,.5);
+  border-color: rgba(255,255,255,.1);
+  margin-left: 278px;
+}
+.container{
+  width:100%;
+}
+.header{
+  background-color: black;
+}
+.navs{
+  position:relative;
+}
+.navbar-brand {
+  padding-top:0px;
+  padding-bottom:0px;
+}
+.slider img{
+  height: 340px;
+  animation: none;
+}
+.main-slider {
+   top: 72px;
+   text-align: center;
+}
+.slider-item{
+  margin-bottom:0px;
+}
+.slider-wapper h1{
+  font-size: 28px;
+  margin-bottom: 0px;
+  padding: 21px 0px;
+}
+.slider-wapper h5{
+  margin-bottom:48px ;
+}
+.fit{
+  position:relative;
+  top: 0px;
+  left: 0px;
+}
+.btn {
+  position: absolute;
+  background-color: red;
+  color: #fff;
+  padding: 10px 32px;
+  margin-left:-82px;
+}
+.printer{
+  position: relative;
+  top: 0px;
+}
+.siv{
+  display: none;
+}
+.jion-text {
+  text-align: center;
+}
+.about-img svg {
+  display: none;
+}
+.about-text1 img{
+  display: none;
+}
+.about{
+  padding: 0px 0px;
+}
+.about-img svg{
+  display: none;
+}
+.arrow-icans {
+padding-left: 178px;
+}
+.elementor-image {
+ margin-bottom: 34px;
+}
+.running-image {
+  position: absolute;
+  left: -65px;
+  top: 387px;
+}
+.title-shape {
+   padding-left: 0px; 
+}
+.about-img img {
+  margin-top: -580px;
+  margin-left: 6px;
+}
+.about_text {
+  text-align: center;
+  padding-top: 216px;
+}
+
+.elementor-text{
+  padding-top: 0px;
+}
+
+.elementor-top{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.elementor {
+  padding-bottom: 87px;
+}
+.rotation {
+  transform: rotate(0deg);
+  position: relative;
+  top: -168px;
+  left: -82px;
+   color: white;
+}
+.text-building{
+  position: static;
+  transform: rotate(0deg);
+  height: 327px;
+  display: none;
+}
+.start-fitness{
+  margin-top: 19px;
+ }
+.imp-fitness h2 {
+  font-size: 22px;
+  padding-left: 0px;
+  padding-top: 14px;
+}
+.start-fitness a{
+  margin-left: -10px;
+  top: 94px;
+}
+.join-img{
+  width: 100%;
+  height: 100%;
+}
+.jion-text h1 {
+  font-size: 17px;
+}
+.jion-text span {
+  font-size: 14px;
+}
+.jion-wrapper {
+  padding-top: 36px;
+  text-align: center;
+}
+.weight:after {
+  position:static;
+}
+.jion-now:after{
+  position: static;
+}
+.count-text{
+  font-size: 17px;
+}
+.trainer-exp {
+  padding-left: 34px;
+   padding-top: 69px;
+}
+.Trainer{
+  padding-bottom: 0px;
+
+}
+h1.cool.text-white.pb-5 {
+  font-size: 17px;
+}
+.trainer-exp:after {
+  position: static;
+}
+.trainer-image {
+  min-height:287px;
+  width: 284px;
+  padding: 0px 0px;
+  margin-left: 112px;
+  margin-bottom: 0px;
+}
+.payment-monthly {
+  text-align: center;
+  padding-top: 19px;
+}
+.yearly p {
+  padding-top: 22px;
+  margin-right: 320px;
+}
+.payment-img img {
+  width: 100%;
+}
+.purchase{
+  margin-left: 120px;
+  padding-top: 0px;
+}
+.purchase button{
+  padding: 4px 4px;
+  margin-right: 0px;
+}
+.club ul li i {
+  margin-right: 0px;
+}
+.reviews-text {
+   padding-top: 0px;
+  padding-bottom: 0px;
+}
+.reviews-wrapper h1 {
+  font-size: 22px;
+}
+.reviews-main {
+  padding-top: 11px;
+ padding-bottom:0px;
+  text-align: center;
+}
+.sport-main {
+ border:none;
+  padding: 0px;
+}
+.sportsman {
+  background-color: black;
+  padding:0px;
+}
+.cart-shopping {
+  text-align: center;
+}
+.testimonial-shape img {
+  top: 17px;
+  left: -112px;
+  display:none;
+}
+.sports-img img {
+   padding-left: 0px;
+   padding-top: 0px; 
+   padding-bottom: 0px;
+   display: none;
+}
+.sports-img p{
+  padding: 0px;
+  margin-bottom: 0px;
+}
+.testimonial-title {
+ padding-left: 0px;
+ font-size: 19px;
+}
+.testimonial-designation {
+ padding-left: 0px; 
+}
+.sports-text img {
+  border-radius: 0 50% 0 0;
+  margin-top: 0px;
+  margin-left: -15px;
+  width: 1058px;
+  height: 246px;
+}
+.gym-store p {
+  padding: 0px;
+}
+.gym-store {
+  padding-bottom:0px;
+}
+.store {
+  padding-top: 0px;
+}
+.counter {
+  margin-bottom: 10px;
+}
+.units {
+  color: #404040;
+  padding-right:0px;
+  margin-top: 46px;
+}
+.kg input{
+  width: 138px;
+  margin-right: 0px;
+}
+h1.nmi.text-white.pt-5 {
+  font-size: 28px;
+  margin-top: -64px;
+}
+.contact{
+  width: 100%;
+}
+.calculate{
+  margin-bottom: 194px;
+}
+h1.our-online {
+  font-size: 28px;
+}
+.store {
+  padding-top: 21px;
+}
+.table-main{
+  display: none;
+}
+.crossfit-image {
+ text-align: center;
+}
+.crossfit-image img{
+  width: 100%;
+  padding-bottom: 35px;
+}
+.crossfit-text {
+  position: absolute;
+  top: 361px;
+  left: 32px;
+  color: white;
+}
+.footer-top:after{
+  left: 0px;
+}
+.fitness-class{
+  text-align: center;
+  padding-top: 48px;
+}
+.fitness-class ul li a {
+  color: black;
+  padding-left: 0px;
+  text-decoration: none;
+}
+}
+@media (min-width:768px) and (max-width:991px){
+  #none{
+    display:none;
+  }
+  nav.navbar {
+    padding: 0px 0px;
+}
+.navbar-dark .navbar-toggler {
+  color: rgba(255,255,255,.5);
+  border-color: rgba(255,255,255,.1);
+  margin-left: 354px;
+}
+.container{
+  width:100%;
+}
+.header{
+  background-color: black;
+}
+.navs{
+  position:relative;
+}
+.navbar-brand {
+  padding-top:0px;
+  padding-bottom:0px;
+}
+.slider img{
+  height: 340px;
+  animation: none;
+}
+.main-slider {
+   top: 155px;
+   text-align: center;
+}
+.slider-item{
+  margin-bottom:0px;
+}
+.slider-wapper h1{
+  font-size: 28px;
+  margin-bottom: 0px;
+  padding: 21px 0px;
+}
+.slider-wapper h5{
+  margin-bottom:48px ;
+}
+.fit{
+  position:relative;
+  top: 0px;
+  left: 0px;
+}
+.btn {
+  position: absolute;
+  background-color: red;
+  color: #fff;
+  padding: 10px 32px;
+  margin-left:-82px;
+}
+.printer{
+  position: relative;
+  top: 0px;
+}
+.siv{
+  display: none;
+}
+.jion-text {
+  text-align: center;
+}
+.about-img svg {
+  display: none;
+}
+.about-text1 img{
+  display: none;
+}
+.about{
+  padding: 0px 0px;
+}
+.about-img svg{
+  display: none;
+}
+.arrow-icans {
+padding-left: 257px;
+}
+.elementor-image {
+ margin-bottom: 34px;
+}
+.running-image {
+  position: absolute;
+  left: 36px;
+  top:-115px;
+  text-align:center;
+  width: 78%;
+}
+.title-shape {
+   padding-left: 0px; 
+}
+.about-img img {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.about_text {
+  text-align: center;
+  padding-top: 216px;
+}
+
+.elementor-text{
+  padding-top: 0px;
+}
+
+.elementor-top{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.elementor {
+  padding-bottom: 87px;
+}
+.elementor-image img {
+  transform: scale(1);
+  transition: 0.5s;
+  position: relative;
+  width: 100%;
+}
+.days-off img {
+  top: -23px;
+  }
+.rotation {
+  transform: rotate(0deg);
+  position: relative;
+  top: -168px;
+  left: -82px;
+   color: white;
+}
+.text-building{
+  position: static;
+  transform: rotate(0deg);
+  height: 327px;
+  display: none;
+}
+.start-fitness{
+  margin-top: 19px;
+ }
+.imp-fitness h2 {
+  font-size: 22px;
+  padding-left: 0px;
+  padding-top: 14px;
+}
+.start-fitness a{
+  margin-left: -10px;
+  top: 94px;
+}
+.join-img{
+  width: 100%;
+  height: 100%;
+}
+.jion-text h1 {
+  font-size: 17px;
+}
+.jion-text span {
+  font-size: 14px;
+}
+.jion-wrapper {
+  padding-top: 36px;
+  text-align: center;
+}
+.weight:after {
+  position:static;
+}
+.jion-now:after{
+  position: static;
+}
+.count-text{
+  font-size: 17px;
+}
+.trainer-exp {
+  padding-left: 34px;
+   padding-top: 69px;
+}
+.Trainer{
+  padding-bottom: 0px;
+
+}
+h1.cool.text-white.pb-5 {
+  font-size: 17px;
+}
+.trainer-exp:after {
+  position: static;
+}
+.trainer-image {
+  min-height:287px;
+  width: 284px;
+  padding: 0px 0px;
+  margin-left: 20px;
+  margin-bottom: 18px;
+}
+.payment-monthly {
+  text-align: center;
+  padding-top: 19px;
+}
+.yearly p {
+  padding-top: 22px;
+  margin-right: 320px;
+}
+.payment-img img {
+  width: 100%;
+}
+.purchase{
+  margin-left: 120px;
+  padding-top: 0px;
+}
+.purchase button{
+  padding: 4px 4px;
+  margin-right: 0px;
+}
+.club ul li i {
+  margin-right: 0px;
+}
+.reviews-text {
+   padding-top: 0px;
+  padding-bottom: 0px;
+}
+.reviews-wrapper h1 {
+  font-size: 22px;
+}
+.reviews-main {
+  padding-top: 11px;
+ padding-bottom:0px;
+  text-align: center;
+}
+.sport-main {
+ border:none;
+  padding: 0px;
+}
+.sportsman {
+  background-color: black;
+  padding:0px;
+}
+.cart-shopping {
+  text-align: center;
+}
+.testimonial-shape img {
+  top: 17px;
+  left: -112px;
+  display:none;
+}
+.sports-img img {
+   padding-left: 0px;
+   padding-top: 0px; 
+   padding-bottom: 0px;
+   display: none;
+}
+.sports-img p{
+  padding: 0px;
+  margin-bottom: 0px;
+}
+.testimonial-title {
+ padding-left: 0px;
+ font-size: 19px;
+}
+.testimonial-designation {
+ padding-left: 0px; 
+}
+.sports-text img {
+  border-radius: 0 50% 0 0;
+  margin-top: 0px;
+  margin-left: -15px;
+  width: 1058px;
+  height: 246px;
+}
+.gym-store p {
+  padding: 0px;
+}
+.gym-store {
+  padding-bottom:0px;
+}
+.store {
+  padding-top: 0px;
+}
+.counter {
+  margin-bottom: 10px;
+}
+.units {
+  color: #404040;
+  padding-right:0px;
+  margin-top: 46px;
+}
+.kg input{
+  width: 138px;
+  margin-right: 0px;
+}
+h1.nmi.text-white.pt-5 {
+  font-size: 28px;
+  margin-top: -64px;
+}
+.contact{
+  width: 100%;
+}
+.calculate{
+  margin-bottom: 194px;
+}
+h1.our-online {
+  font-size: 28px;
+}
+.store {
+  padding-top: 21px;
+}
+.table-main{
+  display: none;
+}
+.crossfit-image {
+ text-align: center;
+}
+.crossfit-image img{
+  width: 100%;
+  padding-bottom: 35px;
+}
+.crossfit-text {
+  position: absolute;
+  top: 361px;
+  left: 32px;
+  color: white;
+}
+.footer-top:after{
+  left: 0px;
+}
+.fitness-class{
+  text-align: center;
+  padding-top: 48px;
+}
+.fitness-class ul li a {
+  color: black;
+  padding-left: 0px;
+  text-decoration: none;
+}
+h4.number.text-danger {
+  text-align: center;
+}
+.online-click {
+  text-align: center;
+}
+.fitness-class{
+  padding-top: 12px;
+  margin-left: 0px;
+  text-align: left;
+} 
+} 
